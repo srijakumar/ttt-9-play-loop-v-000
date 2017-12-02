@@ -39,7 +39,7 @@ end
 $i = 1
 def play(board)
   while $i<10 do
-    turn(board)
+    turn()
     $i +=1
   end
 
